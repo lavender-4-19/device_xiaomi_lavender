@@ -37,7 +37,7 @@ USE_DEVICE_SPECIFIC_DISPLAY := true
 DEVICE_SPECIFIC_DISPLAY_PATH := $(DEVICE_PATH)/qcom-caf/display
 
 # Kernel
-TARGET_KERNEL_CONFIG := lavender_defconfig
+TARGET_KERNEL_CONFIG := lavender-perf_defconfig
 BOARD_KERNEL_SEPARATED_DTBO := true
 
 # Manifest
